@@ -1,0 +1,240 @@
+.menu{
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 25px;
+    overflow: hidden;
+    background-color:#FFE4E1;
+}
+.menu>a{
+    float: left;
+    display: block;
+    color:blue;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.menu>a:visited{
+    color:green;
+}
+.menu>a:hover{
+    color:red;
+    background-color: greenyellow;
+}
+
+.column{
+    width: 25%;
+    float: left;
+}
+.san-pham{
+    border-radius: 10px;
+    box-shadow: 0 0 5px red;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+.san-pham img{
+    max-width: 95%;
+}
+.san-pham gia{
+    color: red;
+    font-weight: bold;
+    font-size: large;
+}
+.san-pham .del{
+    color: gray;
+}
+.san-pham:hover{
+    /* background-color: aqua;
+    box-shadow: 0 0 5px blue; */
+}
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.container>header{
+    background-image: url('images/img4281-1536284841\ \(1\).jpg');
+    background-size: 100% 100%;
+    position: relative;
+    padding-bottom: 25%;
+}
+
+.container>article{
+    min-height: 400px;
+    width: 75%;
+    background-color: white;
+    float: left;
+}
+.container>aside{
+    
+    min-height: 400px;
+    width: 25%;
+    
+    font-variant: small-caps;
+    float: right;
+}
+.container>footer{
+    border-top: 5px double orangered;
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+}
+iframe[name=page]{
+    width: 100%;
+    min-height: 400px;
+}
+.float-right{
+    float:right;
+}
+.top-right{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-bottom-left-radius: 25px;
+    box-shadow: 0 0 15px rgb(134, 35, 35);
+    padding-left: 0px;
+    height: 40px;
+    background-color: orangered;
+    color:palegreen;
+
+}
+.top-right ul{
+    display: inline-block;
+    margin: 0px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.company-info{
+    position: absolute;
+    left: 15px;
+    bottom: 30px;
+}
+.company-info h1{
+    font-size: 50px;
+    color: #FFF;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    text-shadow: 0 0 10px orangered;
+    border-bottom: 2px orangered solid;
+}
+.company-info p{
+    text-align: justify;
+    font-size: 25px;
+    color:orangered;
+    font-weight: bolder;
+    padding-top:5px;
+    text-shadow: 0 0 5px rgb(90, 54, 54);
+    letter-spacing: 8px;
+}
+
+.top-right-menu{
+    float:right
+}
+.top-right ul li{
+    display:inline-block;
+}
+
+
+.top-right ul li a{
+    text-decoration: none;
+    margin: 4px;
+}
+.top-right ul li a{
+    color:white;
+     
+}
+.vmenu{
+    float: left;
+    padding: 0px;
+    margin: 5px;
+    list-style-type:none;
+    border-radius:3px;
+    box-shadow: 0 0 2px gray;
+}
+.vmenu a{
+    background: url('./2021-flashing-bullet-point.gif') no-repeat 10px center;
+    background-size: 8% 50%;
+    display: block;
+    border-bottom: 1px dotted orange;
+    color:orange;
+    font-variant: small-caps;
+    font-size: large;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
+.vmenu a:hover{
+    background: url('./37da45b6-4fff-42ea-92e0-70470d621d5b_alta-libre-aspect-ratio_default_0.jpg')no-repeat 10px center;
+    border-bottom: 1px dotted white;
+    background-color: orangered;
+    color:white;
+    font-weight: bold;
+}
+.menu>ul>li{
+    display:inline-block;
+    position: relative;
+}
+.menu>ul>li>a{
+    display: block;
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+}
+.menu>ul>li>a{
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size:large;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+}
+.menu>ul>li>a:hover{
+    color:yellow;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+.menu ul ul{
+    position:absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray;
+}
+.menu ul ul li a{
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: large;
+    padding: 0 10px;
+}
+.menu ul ul li a:hover{
+    background-color: orangered;
+    color: white;
+    display: block;
+}
+nav{
+    background-color: orangered;
+    position: relative;
+    width: 1000px;
+    height: 40px;
+}
